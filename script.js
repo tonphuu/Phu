@@ -27,7 +27,7 @@ document.onkeydown = function (e) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    var audio = new Audio("https://cdn.discordapp.com/attachments/968542864235716658/1198512881969418310/Kerosene.mp3?ex=65bf2d1a&is=65acb81a&hm=4437b866718a76ff62cbd82f664347118e8f14c3f3b211f6f71475164605e70c&");
+    var audio = new Audio("https://cdn.discordapp.com/attachments/968542864235716658/1198240393330970644/One_Of_The_Girls.mp3?ex=65be2f54&is=65abba54&hm=099dc57fce149795dd77eb37c1ee5daa28a8110ff7a228e44899a44d1e60807d&");
     audio.loop = true;
     document.addEventListener("click", function(){
       audio.play();
