@@ -15,7 +15,6 @@ video {
     z-index: -1;
 }
 
-/* Profile Container Styles */
 .profile-container {
     position: absolute;
     top: 50%;
@@ -58,7 +57,7 @@ video {
 }
 
 .contact-column div:hover img {
-    transform: scale(1.2);
+    transform: scale(1.2) translateY(-10px);
 }
 
 .contact-column div::before {
@@ -76,15 +75,15 @@ video {
     opacity: 1;
 }
 
-h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #fff;
+.name h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
     font-size: x-large;
 }
 
 .typewriter h2 {
     color: #fff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     overflow: hidden;
     font-size: large;
     border-right: .15em solid rgb(240, 240, 240);
