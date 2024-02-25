@@ -29,12 +29,9 @@ document.onkeydown = function (e) {
 
 // Audio Autoloop
 document.addEventListener("DOMContentLoaded", function() {
-    var audio = new Audio("https://cdn.discordapp.com/attachments/968542864235716658/1198240393330970644/One_Of_The_Girls.mp3?ex=65be2f54&is=65abba54&hm=099dc57fce149795dd77eb37c1ee5daa28a8110ff7a228e44899a44d1e60807d&");
+    var audio = new Audio("https://cdn.discordapp.com/attachments/968542864235716658/1211180733306114118/x2mate.com_-_FIFA4_BGM__-_EL_TORNADO_128_kbps.mp3?ex=65ed42f5&is=65dacdf5&hm=b8eb567e42d71f94c0b37e832713b3ff6a18753864d1f66cb6886179b1e3785e&");
     audio.loop = true;
     document.addEventListener("click", function(){
-      audio.play();
-    });
-    document.addEventListener("mousemove", function(){
       audio.play();
     });
 });
